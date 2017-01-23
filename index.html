@@ -113,18 +113,24 @@
 
               		<label for="date-out">Дата заезда:</label>
               		<input id="date-out" type="text" placeholder="4 июля 2014"/><br>
+					
+					<div class="plus-minus-wrapper">
+						<div class="plus-minus-container">
+			              		<label for="adults" class="to-left">Взрослые:</label>
+				            <div class="plus-minus-input">
+				                <input id="adults" type="text" placeholder="2">
+							</div>
+						</div>
 
-              		<label for="adults" class="to-left">Взрослые:</label>
-	                <input class="btn-minus" type="button" value="-">
-	                <input id="adults" type="text" placeholder="2">
-	                <input class="btn-plus" type="button" value="+">
+						<div class="plus-minus-container">
+				                <label for="children" class="to-left">Дети:</label>
+				           	<div class="plus-minus-input">     
+				                <input id="children" type="text" placeholder="0">
+							</div>
+						</div>
+					</div>
 
-	                <label for="children" class="to-left">Дети:</label>
-	                <input class="btn-minus" type="button" value="-">
-	                <input id="children" type="text" placeholder="0">
-	                <input class="btn-plus" type="button" value="+"><br>
-
-	                <input class="btn-search" type="submit" value="Найти">
+	                <button class="btn-search" type="submit">Найти</button>
 	        	</form>
 	        </article>
 	        <div class="hotel-search-map">
