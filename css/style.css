@@ -1,0 +1,21 @@
+body {
+	font-family: 'PT Sans', sans-serif;
+	font-size: 14px;
+	line-height: 21px;
+	font-weight: normal;
+	color: #000000;
+}
+
+h1 {
+	font-size: 21px;
+	line-height: 26px;
+	font-weight: bold;
+	text-transform: uppercase;
+}
+
+h3 {
+	font-size: 21px;
+	line-height: 21px;
+	font-weight: bold;
+	text-transform: uppercase;
+}
