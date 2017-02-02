@@ -4,28 +4,35 @@
 		<meta charset="utf-8">
 		<title>Отели Седоны</title>
 		<link rel="stylesheet" href="css/style.css">
+		<link rel="stylesheet" href="css/normalize.css">
+		<link href="https://fonts.googleapis.com/css?family=PT+Sans:400,700&amp;subset=cyrillic" rel="stylesheet">
 	</head>
 	<body>
-		<div class="container clearfix">
-			<header class="main-header">
-				<nav class="main-navigation">
-					<a href="#" class="logo">
-					<img src="img/logo.png" width="138" height="70" alt="Logo">
-					</a>
+		<div class="container">
+			
+		<header>
+			<nav class="main-navigation">
 				<ul>
 					<li><a href="#">Информация</a></li>
-					<li><a href="#">Фото и видео</a></li>	
+					<li><a href="#">Фото и видео</a></li>
+					<li>
+						<a href="#" class="logo">
+							<img src="img/logo.png" width="138" height="70" alt="Sedona logo">
+						</a>
+					</li>	
 					<li><a href="#">Карта штата</a></li>
 					<li><a href="#">Гостиницы</a></li>
 				</ul>
-				</nav>
-			</header>
-		</div>
-		<main class="container clearfix">
+			</nav>
+		</header>
+
+		<main>
 
 			<section class="filters">
-				<div class="filters-container">
-					<div class="filters-infrastructure to-left">
+
+				<div class="filters-container clearfix">
+
+					<div class="filters-infrastructure">
 						<h2>Инфраструктура:</h2>
 						<form method="post" action="#">
 							<input id="pool" type="checkbox" checked>
@@ -36,7 +43,8 @@
 							<label for="wi-fi">Wi-Fi</label>
 						</form>
 					</div>
-					<div class="filters-type to-left">
+
+					<div class="filters-type">
 						<h2>Инфраструктура:</h2>
 						<form method="post" action="#">
 							<input id="hotel" type="checkbox" checked>
@@ -47,7 +55,8 @@
 							<label for="apartments">Апартаменты</label>
 						</form>
 					</div>
-					<div class="filters-cost to-right">
+
+					<div class="filters-cost">
 						<h2>Стоимость в сутки (Р):</h2>
 						<form method="post" action="#">
 							<label for="from">от</label>
@@ -57,32 +66,39 @@
 							<input class="btn-filters" type="submit" value="Показать">
 						</form>
 					</div>
+
 				</div>
 			</section>
 
-			<section class="results clearfix">
+			<section class="results">
+
 				<header class="header-results">
-					<div class="wrap-results">
-						<div class="found-results">
-							<h2>Найдено: 3</h2>
-						</div>
+
+					<div class="wrap-results clearfix">
+						<h2 class="found-results">Найдено: 3</h2>
 						<div class="results-filters-sort">
-							<div class="sort-heading">
-								<h3>Сортировка:</h3>
-							</div>
-							<div class="sort-type">
-								<a class="active" href="#">По цене</a>
-								<a href="#">По типу</a>
-								<a href="#">По рейтингу</a>
-							</div>
+							<h3 class="sort-heading">Сортировка:</h3>
 						</div>
+						<ul class="sort-type">
+								<li>
+									<a class="active" href="#">По цене</a>
+								</li>
+								<li>
+									<a href="#">По типу</a>
+								</li>
+								<li>
+									<a href="#">По рейтингу</a>
+								</li>
+							</ul>
 
 						<div class="results-arrows">
 							<a class="arrow-up" href="#"></a>
 							<a class="arrow-down" href="#"></a>
 						</div>
 					</div>
+
 				</header>
+
 			<hr>
 				<div class="results-container">
 
@@ -165,19 +181,23 @@
 			<hr>
 			</section>
 		</main>	
-		<footer class="container clearfix">
-			<div clas="hashtag">#visitsedona</div>
-			<div class="footer-social">
-				<a href="#" class="btn social-twitter">Мы на vk.com</a>
-				<a href="#" class="btn social-fb">Мы на facebook.com</a>
-				<a href="#" class="btn social-youtube">Мы на youtube.com</a> 
-			</div>
-			<div class="footer-copyright">
-				<span>Website by</span>
-				<a href="#" class="copyright">
-				<img src="img/htmlacademy-logo.png" width="113" height="39" alt="HTMLAcademy">
-				</a>
-			</div>  
-		</footer>
+			<footer class="clearfix">
+			
+	        	<div class="hashtag">#visitsedona</div>
+
+	        	<div class="footer-social">
+			        <a href="#" class="btn social-twitter">Мы на vk.com</a>
+			        <a href="#" class="btn social-fb">Мы на facebook.com</a>
+			        <a href="#" class="btn social-youtube">Мы на youtube.com</a> 
+	        	</div>
+
+	        	<div class="footer-copyright">
+			        <span>Website by</span>
+			        <a href="#" class="copyright">
+			        	<img src="img/htmlacademy-logo.png" width="113" height="39" alt="HTMLAcademy">
+			        </a>
+	        	</div>	  
+	    </footer>
+		</div>
 	</body>
 </html>

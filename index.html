@@ -4,35 +4,39 @@
     <meta charset="utf-8">
     <title>HTML Academy: Седона</title>
     <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="css/normalize.css">
+    <link href="https://fonts.googleapis.com/css?family=PT+Sans:400,700&amp;subset=cyrillic" rel="stylesheet">
   </head>
   <body>
+	<div class="container">
 
-	<div class="container clearfix">
-		<header class="main-header">
+		<header>
 			<nav class="main-navigation">
-				<a href="#" class="logo">
-					<img src="img/logo.png" width="138" height="70" alt="Logo">
-				</a>
 				<ul>
 					<li><a href="#">Информация</a></li>
-					<li><a href="#">Фото и видео</a></li>	
+					<li><a href="#">Фото и видео</a></li>
+					<li>
+						<a href="#" class="logo">
+							<img src="img/logo.png" width="138" height="70" alt="Sedona logo">
+						</a>
+					</li>	
 					<li><a href="#">Карта штата</a></li>
 					<li><a href="#">Гостиницы</a></li>
 				</ul>
 			</nav>
 		</header>
-	</div>
 
-		<main class="container clearfix">
+
+		<main>
 
 			<div class="intro">
 				<img class="intro-img" src="img/intro-text.png" width="458" heigth="352" alt="Welcome to Sedona">
 			</div>
 
-			<section class="reasons clearfix">
+			<section class="reasons">
 
 				<div class="reasons-header">
-					<h1>Седона — небольшой городок в Аризоне, 
+					<h1>Седона — небольшой городок в Аризоне,<br> 
 						заслуживающий большего!</h1>
 					<p>Рассмотрим 5 причин, по которым Седона круче, чем гранд каньон!</p>
 				</div>
@@ -97,18 +101,19 @@
 			</section>
 
 			<section class="hotel-search">
+		        
 		        <div class="search-header">
 		            <h2>Заинтересовались?</h2>
 		            <p>Укажите предполагаемые даты поездки
 		            и мы покажем вам лучшие предложения гостиниц в седоне</p>
 		        </div>
 
+		        <div class="hotel-search-button">
+		        		<a href="#">Поиск гостиницы в Седоне</a>
+		        </div>
+
 		        <article class="hotel-search-block clearfix">
 		        	
-		        	<div class="hotel-search-button">
-		        		<a href="#">Поиск гостиницы в Седоне</a>
-		        	</div>
-							
 							<div class="hotel-search-form">
 			        	<form method="post" action="#" name="hotel-search">
 									
@@ -150,16 +155,16 @@
 			        	</form>
 		        	</div>
 		        </article>
+	    </section>
+	    <div class="search-map">
+	       <img src="img/map.jpg" width="1200" height="593" alt="Map">
+	    </div>
 
-		        <div class="hotel-search-map container clearfix">
-	          	<img src="img/map.jpg" width="1200" height="593" alt="Map">
-	        	</div>
-
-	       </section>
 		</main>
 
-		<footer class="container clearfix">
-        	<div clas="hashtag">#visitsedona</div>
+		<footer class="clearfix">
+		
+        	<div class="hashtag">#visitsedona</div>
 
         	<div class="footer-social">
 		        <a href="#" class="btn social-twitter">Мы на vk.com</a>
@@ -174,5 +179,6 @@
 		        </a>
         	</div>	  
     </footer>
+    </div>
   </body>
 </html>
