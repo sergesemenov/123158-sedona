@@ -88,15 +88,15 @@ p {
 .main-menu li {
   display: inline-block;
   vertical-align: top;
-  margin-right: 150px;
+  margin-right: 145px;
   font-size: 14px;
 }
 
-.main-menu li:nth-of-type(2) {
+.main-menu li:nth-child(2) {
   margin-right: 390px;
 }
 
-.main-menu li:last-of-type {
+.main-menu li:last-child {
   margin-right: 0;
 }
 
@@ -257,7 +257,6 @@ p {
 .hotel-search-form label {
   float: left;
   padding-top: 6px;
-  margin-right: 15px;
   font-family: "PT Sans", "Tahoma", sans-serif;
   font-size: 14px;
   line-height: 26px;
@@ -270,42 +269,45 @@ p {
 .hotel-search-form input.date-out {
   float: right;
   width: 350px;
+  height: 38px;
 }
 
 .hotel-search-form input[type="text"] {
   padding: 5px;
   padding-left: 15px;
+  margin-bottom: 30px;
   font-family: "PT Sans", "Tahoma", sans-serif;
   font-size: 14px;
   line-height: 26px;
+  font-weight: 700;
   text-transform: uppercase;
   color: #000000;
   background-color: #f2f2f2;
   border: none;
   outline: none;
-  font-weight: 700;
-  margin-bottom: 30px;
   cursor: pointer;
 }
 
-.hotel-search-form input[type="text"]:hover {
+.hotel-search-form input[type="text"]:hover,
+.age-counter input:hover {
   background-color: #ebebeb;
 }
 
-.hotel-search-form input[type="text"]:active {
+.hotel-search-form input[type="text"]:active,
+.age-counter input:active {
   background-color: #ffffff;
   outline: 2px solid #e5e5e5;
 }
 
 .calendar-btn {
   position: relative;
-  width: 38px;
-  height: 34px;
+  width: 36px;
+  height: 38px;
   padding: 0;
   background-color: #f2f2f2;
   background: url("../img/sprite.png") no-repeat;
   background-position: -1px -4px;
-  top: -31px;
+  top: -32px;
   left: 384px;
   border: none;
   cursor: pointer;
