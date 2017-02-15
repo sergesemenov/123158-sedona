@@ -238,6 +238,7 @@ p {
 
 /* Выпадающая форма */
 .hotel-search-block {
+  display: none;
   position: absolute;
   left: 50%;
   z-index: 5;
@@ -247,6 +248,11 @@ p {
   transform: translateX(-50%);
   background-color: #ffffff;
   box-shadow: 0 5px 15px 5px rgba(0,1,1,0.15); 
+}
+
+
+.hotel-search-block-show {
+  display: block;
 }
 
 .input-wrapper {
@@ -294,7 +300,9 @@ p {
 }
 
 .hotel-search-form input[type="text"]:active,
-.age-counter input:active {
+.age-counter input:active,
+.hotel-search-form input[type="text"]:focus,
+.age-counter input:focus {
   background-color: #ffffff;
   outline: 2px solid #e5e5e5;
 }
