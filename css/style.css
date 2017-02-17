@@ -227,6 +227,7 @@ p {
 
 /* Поиск гостиницы */
 .hotel-search {
+  height: 764px;
   padding-top: 32px;
   text-align: center;
   background-color: #fff;
@@ -286,8 +287,8 @@ p {
 }
 
 .input-wrapper {
-  margin: 0;
   padding: 0;
+  margin: 0;
 } 
 
 .hotel-search-form label {
@@ -311,7 +312,6 @@ p {
 .hotel-search-form input[type="text"] {
   padding: 5px;
   padding-left: 15px;
-  margin-bottom: 30px;
   font-family: "PT Sans", "Tahoma", sans-serif;
   font-size: 14px;
   line-height: 26px;
@@ -322,6 +322,7 @@ p {
   border: none;
   outline: none;
   cursor: pointer;
+  margin-bottom: 30px;
 }
 
 .hotel-search-form input[type="text"]:hover,
@@ -374,13 +375,13 @@ p {
 
 .age-counter label {
   float: left;
-  margin-right: 36px;
   font-family: "PT Sans", "Tahoma", sans-serif;
   font-size: 14px;
   line-height: 26px;
   font-weight: 700;
   text-transform: uppercase;
   color: #000000;
+  margin-right: 36px;
 }
 
 .age-counter .btn-counter {
@@ -456,7 +457,11 @@ p {
 
 .search-map {
   width: 100%;
-  height: 475px;
+  height: 394px;
+}
+
+.search-map iframe {
+  border: none;
 }
 
 /* Выпадающая форма */
@@ -913,8 +918,14 @@ p {
 
 /* Подвал */
 .main-footer {
-  background-color: rgba(255,255,255,0.3);
-  min-height: 115px;;
+  position: absolute;
+  z-index: 10;
+  left: 67px;
+  min-height: 115px;
+  background-color: rgba(255,255,255,0.9);
+  box-shadow: 0 15px 25px lightgrey;
+  width: 1200px;
+  
 }
 
 .hashtag {
@@ -925,9 +936,9 @@ p {
   line-height: 26px;
   font-weight: 700;
   text-transform: uppercase;
-  padding-left: 130px;
+  padding-left: 131px;
   margin: 0 auto;
-  padding-top: 50px;
+  padding-top: 46px;
 }
 
 .hashtag a {
@@ -949,13 +960,13 @@ p {
 
 .social-btn {
   display: inline-block;
-  width: 43px;
-  height: 43px;
-  margin: 0 5px;
+  width: 45px;
+  height: 45px;
+  margin: -4px 2px;
   font-size: 0;
-  vertical-align: top;
   text-decoration: none;
   background: #99cccc url("../img/sprite.png") no-repeat center;
+  vertical-align: top;
 }
 
 .social-btn:hover {
