@@ -153,16 +153,18 @@ p {
 
 /* Причины и преимущества */
 .reasons-header {
-  height: 200px;
+  padding-top: 60px;
+  height: 215px;
   vertical-align: middle;
   text-align: center;
-  margin-top: 5px; 
 }
 
 .reasons-header h1 {
+  width: 440px;
   font-size: 21px;
   line-height: 26px;
   font-weight: 700;
+  margin: 0 auto;
   margin-bottom: 30px;
 }
 
@@ -180,6 +182,11 @@ p {
   color: white;    
 }
 
+.reasons-text h2,
+.reasons-text p {
+  margin-bottom: 22px;
+}
+
 .reasons-img {
   width: 800px;
   height: 256px;
@@ -188,8 +195,8 @@ p {
 .advantages-text {
   float: left;
   width: 400px;
-  height: 335px;
-  padding: 60px  60px 85px 65px;
+  height: 330px;
+  padding: 60px 54px 85px 56px;
   text-align: center;
 }
 
