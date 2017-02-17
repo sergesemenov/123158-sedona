@@ -462,6 +462,8 @@ p {
 
 .search-map iframe {
   border: none;
+  width: 1200px;
+  height: 555px;
 }
 
 /* Выпадающая форма */
@@ -485,7 +487,6 @@ p {
 .filter-infrastructure {
   float: left;
   width: 240px;
-  height: 150px;
 }
 
 .filter-type {
