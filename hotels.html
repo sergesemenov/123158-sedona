@@ -29,40 +29,33 @@
         <section class="filters">
 
           <div class="filter-container clearfix">
+            <form method="post" action="/">
+              <div class="filter-infrastructure">
+                <div class="filter-infrastructure-title">Инфраструктура:</div>
+                  <input id="pool" type="checkbox" checked>
+                  <label for="pool">Бассейн</label><br>
+                  <input id="parking" type="checkbox">
+                  <label for="parking">Парковка</label><br>
+                  <input id="wi-fi" type="checkbox" disabled>
+                  <label class="disabled" for="wi-fi">Wi-Fi</label>
+              </div>
 
-            <div class="filter-infrastructure">
-              <div class="filter-infrastructure-title">Инфраструктура:</div>
-              <form method="post" action="#">
-                <input id="pool" type="checkbox" checked>
-                <label for="pool">Бассейн</label><br>
-                <input id="parking" type="checkbox">
-                <label for="parking">Парковка</label><br>
-                <input id="wi-fi" type="checkbox" disabled>
-                <label class="disabled" for="wi-fi">Wi-Fi</label>
-              </form>
-            </div>
+              <div class="filter-type">
+                <div class="filter-type-title">Тип жилья:</div>
+                  <input id="hotel" type="checkbox" checked>
+                  <label for="hotel">Гостиница</label><br>
+                  <input id="motel" type="checkbox" checked>
+                  <label for="motel">Мотель</label><br>
+                  <input id="apartments" type="checkbox" checked disabled>
+                  <label class="disabled" for="apartments">Апартаменты</label>
+                
+              </div>
 
-            <div class="filter-type">
-              <div class="filter-type-title">Тип жилья:</div>
-              <form method="post" action="#">
-                <input id="hotel" type="checkbox" checked>
-                <label for="hotel">Гостиница</label><br>
-                <input id="motel" type="checkbox" checked>
-                <label for="motel">Мотель</label><br>
-                <input id="apartments" type="checkbox" checked disabled>
-                <label class="disabled" for="apartments">Апартаменты</label>
-              </form>
-            </div>
-
-            <div class="filter-range">
-              <div class="filter-range-title">Стоимость в сутки (р):</div>
+              <div class="filter-range">
+                <div class="filter-range-title">Стоимость в сутки (р):</div>
                 <div class="price-controls">
-                  <label class="min-price">от 
-                    <input type="text" name="min-price" value="0">
-                  </label>
-                  <label class="max-price">до 
-                    <input type="text" name="max-price" value="3000">
-                  </label>
+                  <label class="min-price">от <input type="text" name="min-price" value="0"></label>
+                  <label class="max-price">до <input type="text" name="max-price" value="3000"></label>
                 </div>
                 <div class="range-controls">
                   <div class="scale">
@@ -71,9 +64,9 @@
                   <div class="range-toggle range-toggle-min"></div>
                   <div class="range-toggle range-toggle-max"></div>
                 </div>
-              <button class="btn-transparent" type="submit">Показать</button>
-            </div>
-
+                <button class="btn-transparent" type="submit">Показать</button>
+              </div>
+            </form>
           </div>
         </section>
 
