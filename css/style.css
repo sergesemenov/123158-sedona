@@ -66,7 +66,7 @@ p {
 
 /* Главная шапка сайта */
 .main-navigation {
-  padding: 0 75px;
+  padding: 0;
   margin: 0 auto;
   background: #ffffff;
 }
@@ -75,7 +75,7 @@ p {
   position: absolute;
   top: 0;
   z-index: 2;
-  transform: translateX(455px);
+  transform: translateX(531px);
 }
  
 .main-menu {
@@ -87,17 +87,15 @@ p {
 
 .main-menu li {
   display: inline-block;
+  padding-left: 11px;
   vertical-align: top;
-  margin-right: 145px;
+  text-align: center;
+  width: 237px;
   font-size: 14px;
 }
 
 .main-menu li:nth-child(2) {
-  margin-right: 390px;
-}
-
-.main-menu li:last-child {
-  margin-right: 0;
+  margin-right: 250px;
 }
 
 .main-menu a {
