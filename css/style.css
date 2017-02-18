@@ -703,7 +703,7 @@ p {
 
 /* Сортировка */
 .wrap-results {
-  width: 1056px;
+  width: 1200px;
   padding: 35px 75px 20px;
   display: flex;
   flex-direction: row; 
