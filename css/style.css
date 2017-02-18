@@ -561,6 +561,18 @@ p {
   opacity: 0.5;
 }
 
+.filter-infrastructure ul,
+.filter-type ul {
+  margin: 0;
+  padding: 0;
+}
+
+.filter-infrastructure li,
+.filter-type li {
+  margin-bottom: 25px;
+  list-style: none;
+}
+
 .filter-infrastructure-title,
 .filter-type-title {
   margin-bottom: 30px;
@@ -568,6 +580,7 @@ p {
   line-height: 21px;
   font-weight: 600;
 }
+
 
 .filter-range {
   float: right;
@@ -643,7 +656,6 @@ p {
 }
 
 .range-toggle {
-  position: absolute;
   top: -7px;
   width: 4px;
   height: 4px;
@@ -652,6 +664,7 @@ p {
   border-radius: 50%;
   box-shadow: 0 2px 1px 0 rgba(0, 1, 1, 0.2);
   cursor: pointer;
+  position: absolute;
 }
 
 .range-toggle:hover {
