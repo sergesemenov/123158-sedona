@@ -828,21 +828,25 @@ p {
   margin-bottom: 8px;
 }
 
-.result-info-text b {
+.result-info-text h3 {
+  margin: 0;
+}
+
+.result-info-text h3  a {
   font-size: 21px;
   line-height: 26px;
   font-weight: bold;
+  text-decoration: none;
   color: #000000;
   padding: 0;
-  margin: 0;
   cursor: default;
 }
 
-.result-info-text b:hover {
+.result-info-text h3  a:hover {
   color: #81b3d2;
 }
 
-.result-info-text b:active {
+.result-info-text h3  a:active {
   color: #cacaca;
   cursor: pointer;
 }
@@ -939,8 +943,12 @@ p {
   min-height: 115px;
   background-color: rgba(255,255,255,0.9);
   box-shadow: 0 15px 25px lightgrey;
-  width: 1200px;
-  
+  width: 1200px;  
+}
+
+.inner-footer {
+  background-color: rgba(255,255,255,0.3);
+  min-height: 115px;
 }
 
 .hashtag {
