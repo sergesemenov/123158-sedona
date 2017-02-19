@@ -500,7 +500,7 @@ p {
 }
 
 .filter-infrastructure input[type="checkbox"] + label,
-.filter-type input[type="checkbox"] +label {
+.filter-type input[type="checkbox"] + label {
   position: relative;
   display: block;
   font-size: 14px;
@@ -512,7 +512,7 @@ p {
 }
 
 .filter-infrastructure input[type="checkbox"] + label::before,
-.filter-type input[type="checkbox"] +label::before {
+.filter-type input[type="checkbox"] + label::before {
   position: absolute;
   display: block;
   content: "";
@@ -527,7 +527,7 @@ p {
 }
 
 .filter-infrastructure input[type="checkbox"]:checked + label::before,
-.filter-type input[type="checkbox"]:checked +label::before {
+.filter-type input[type="checkbox"]:checked + label::before {
   position: absolute;
   display: block;
   content: "";
@@ -827,11 +827,11 @@ p {
   margin-bottom: 8px;
 }
 
-.result-info-text h3 {
+.result-info-headline {
   margin: 0;
 }
 
-.result-info-text h3  a {
+.result-info-headline a {
   font-size: 21px;
   line-height: 26px;
   font-weight: bold;
@@ -840,11 +840,11 @@ p {
   padding: 0;
 }
 
-.result-info-text h3  a:hover {
+.result-info-headline a:hover {
   color: #81b3d2;
 }
 
-.result-info-text h3  a:active {
+.result-info-headline a:active {
   color: #cacaca;
   cursor: pointer;
 }
