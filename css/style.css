@@ -275,7 +275,7 @@ p {
   z-index: 5;
   width: 568px;
   margin: 0 auto;
-  padding: 55px;
+  padding: 57px 55px 52px 55px;
   transform: translateX(-50%);
   background-color: #ffffff;
   box-shadow: 0 5px 15px 5px rgba(0,1,1,0.15); 
@@ -289,6 +289,7 @@ p {
 .input-wrapper {
   padding: 0;
   margin: 0;
+  margin-bottom: -11px;;
 } 
 
 .hotel-search-form label {
@@ -321,7 +322,6 @@ p {
   background-color: #f2f2f2;
   outline: none;
   cursor: pointer;
-  margin-bottom: 30px;
   border: 1px solid #ffffff;
 }
 
@@ -431,10 +431,10 @@ p {
 }
 
 .search-button {
-  width: 460px;
-  padding-top: 20px;
-  padding-bottom: 20px;
-  margin-top: 25px;
+  width: 459px;
+  padding-top: 16px;
+  padding-bottom: 17px;
+  margin-top: 65px;
   color: #ffffff;
   font-family: "PT Sans", "Tahoma", sans-serif;
   font-size: 21px;
@@ -445,6 +445,7 @@ p {
   cursor: pointer;
   outline: none;
   border: none;
+  
 }
 
 .search-button:hover {
@@ -474,19 +475,19 @@ p {
 
 .filters {
   height: 220px;
-  padding-top: 30px;
+  padding-top: 26px;
   background: url("../img/bg-blur.jpg") no-repeat 50% 20%;
 }
 
 .filter-container {
-  padding: 0 75px;
+  padding: 0 72px;
   margin: 0 auto;
   color: #fff;
 }
 
 .filter-infrastructure {
   float: left;
-  width: 240px;
+  width: 256px;
 }
 
 .filter-type {
@@ -573,8 +574,9 @@ p {
 }
 
 .filter-infrastructure-title,
-.filter-type-title {
-  margin-bottom: 30px;
+.filter-type-title,
+.filter-range-title  {
+  margin-bottom: 25px;
   font-size: 16px;
   line-height: 21px;
   font-weight: 600;
@@ -583,7 +585,7 @@ p {
 
 .filter-range {
   float: right;
-  width: 330px;
+  width: 325px;
   color: #ffffff;
   text-transform: uppercase;
 }
@@ -599,16 +601,16 @@ p {
   font-size: 0;
   border: 2px solid #ffffff;
   border-radius: 2px;
+  min-width: 325px;
 }
 
 .price-controls::after {
   content: "";
   position: absolute;
   top: 50%;
-  left: 50%;
+  left: 52%;
   width: 2px;
   height: 22px;
-
   background: #ffffff;
   transform: translate(-50%, -50%);
 }
@@ -702,12 +704,12 @@ p {
 
 /* Сортировка */
 .wrap-results {
-  width: 1200px;
-  padding: 35px 75px 20px;
+  padding: 25px 72px 24px;
   display: flex;
   flex-direction: row; 
   align-items: center;
-  margin: 0; 
+  margin: 0;
+  width: 100%; 
 }
 
 .found-results {
@@ -718,7 +720,6 @@ p {
 }
 
 .sort-results {
-  margin-right: 40px;
   font-size: 12px;
   line-height: 18px;
   font-weight: normal;
@@ -764,7 +765,7 @@ p {
 .results-arrows {
   position: relative;
   top: 0px;
-  transform: translateX(415px);
+  transform: translateX(460px);
 }
 
 .arrow-up,
@@ -800,7 +801,7 @@ p {
   border-top: 1px solid #cccccc;
   height: 150px;
   margin: 0 auto;
-  padding-left: 75px;
+  padding-left: 72px;
   padding-right: 75px;
   padding-top: 30px;
   padding-bottom: 30px;    
@@ -824,11 +825,12 @@ p {
 .result-info-text {
   position: relative;
   top: -5px;
-  margin-bottom: 8px;
+  margin-bottom: 7px;
 }
 
 .result-info-headline {
   margin: 0;
+  margin-bottom: 4px;;;
 }
 
 .result-info-headline a {
@@ -859,13 +861,13 @@ p {
 
 .result-info-text span:last-child {
   position: absolute;
-  top: 31px;
+  top: 34px;
   left: 116px;
 }
 
 .more-btn {
-  padding: 5px 15px 5px 15px;
-  margin-right: 5px;
+  padding: 4px 15px 5px 18px;
+  margin-right: 3px;
   font-size: 14px;
   line-height: 21px;
   font-weight: bold;
@@ -885,7 +887,7 @@ p {
 
 
 .reserv-btn {
-  padding: 5px 15px 5px 15px;
+  padding: 4px 14px 5px 20px;
   margin-right: 5px;
   font-size: 14px;
   line-height: 21px;
@@ -911,7 +913,7 @@ p {
 
 .result-stars {
   float: right;
-  margin-bottom: 33px;
+  margin-bottom: 35px;
 }
 
 .result-stars span {
@@ -927,7 +929,7 @@ p {
   line-height: 21px;
   font-weight: normal;
   text-transform: uppercase;
-  padding: 5px 15px;
+  padding: 5px 16px;
   background-color: #f2f2f2;
 
 }
@@ -958,7 +960,7 @@ p {
   text-transform: uppercase;
   padding-left: 131px;
   margin: 0 auto;
-  padding-top: 46px;
+  padding-top: 50px;
 }
 
 .hashtag a {
@@ -970,7 +972,7 @@ p {
   float: left;
   width: 400px;
   text-align: center;
-  padding-top: 40px;
+  padding-top: 45px;
 }
 
 .footer-social p {
@@ -1026,7 +1028,7 @@ p {
   height: 50px;
   margin-left: 40px;
   padding-right: 100px;
-  padding-top: 40px;
+  padding-top: 45px;
 }
 
 .footer-copyright span {
