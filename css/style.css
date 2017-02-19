@@ -492,7 +492,6 @@ p {
 .filter-type {
   float: left;
   width: 240px;
-  height: 150px;
 }   
 
 .filter-infrastructure input[type="checkbox"],
