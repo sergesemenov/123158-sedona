@@ -656,9 +656,9 @@ p {
 }
 
 .range-toggle {
-  top: -7px;
-  width: 4px;
-  height: 4px;
+  top: -9px;
+  width: 20px;
+  height: 20px;
   background-color: #999999;
   border: 8px solid #ffffff;
   border-radius: 50%;
