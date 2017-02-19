@@ -976,7 +976,7 @@ body {
   font-weight: 700;
   padding-left: 131px;
   margin: 0 auto;
-  padding-top: 50px;
+  padding-top: 44px;
 }
 
 .hashtag a {
@@ -988,7 +988,7 @@ body {
   float: left;
   width: 400px;
   text-align: center;
-  padding-top: 45px;
+  padding-top: 39px;
 }
 
 .footer-social p {
@@ -1044,13 +1044,16 @@ body {
   height: 50px;
   margin-left: 40px;
   padding-right: 100px;
-  padding-top: 45px;
+  padding-top: 39px;
 }
 
 .footer-copyright span {
+  font-size: 14px;
+  line-height: 36px;
+  font-weight: 200;
   display: inline-block;
   vertical-align: top;
-  margin-right: 10px;
+  margin-right: 7px;
 }
 
 .footer-copyright .logo-academy {
