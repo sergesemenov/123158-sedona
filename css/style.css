@@ -17,33 +17,6 @@ body {
   background-color: #ffffff;
 }
 
-h1 {
-  font-size: 21px;
-  line-height: 30px;
-  font-weight: 700;
-  color: #000000;
-}
-
-h2 {
-  font-size: 21px;
-  line-height: 21px;
-  font-weight: 700;
-  color: #ffffff;
-}
-
-h3 {
-  font-size: 21px;
-  line-height: 21px;
-  font-weight: 700;
-  color: #000000;
-}
-
-p {
-  font-size: 14px;
-  line-height: 21px;
-  font-weight: normal;
-}
-
 .clearfix::after {
   content: "";
   display: table;
@@ -165,9 +138,15 @@ p {
   width: 440px;
   font-size: 21px;
   line-height: 26px;
-  font-weight: 700;
+  font-weight: bold;
   margin: 0 auto;
   margin-bottom: 30px;
+}
+
+.reasons-header p {
+  font-size: 14px;
+  line-height: 26px;
+  font-weight: normal;
 }
 
 .reasons-text-pic {
@@ -184,9 +163,18 @@ p {
   color: white;    
 }
 
-.reasons-text h2,
-.reasons-text p {
+.reasons-text h2 {
+  font-size: 21px;
+  line-height: 21px;
   margin-bottom: 22px;
+  font-weight: bold;
+}
+
+.reasons-text p {
+  font-size: 14px;
+  line-height: 21px;
+  margin-bottom: 22px;
+  font-weight: normal;
 }
 
 .reasons-img {
@@ -200,6 +188,18 @@ p {
   height: 330px;
   padding: 61px 55px 85px 52px;
   text-align: center;
+}
+
+.advantages-text h3 {
+  font-size: 21px;
+  line-height: 21px;
+  font-weight: bold;
+}
+
+.advantages-text p {
+  font-size: 14px;
+  line-height: 21px;
+  font-weight: normal;
 }
 
 .reasons-box {
@@ -219,10 +219,16 @@ p {
 }
 
 .reasons-text-box h3 {
+  font-size: 21px;
+  line-height: 21px;
+  font-weight: bold;
   margin-bottom: 25px;
 }
 
 .reasons-text-box p {
+  font-size: 14px;
+  line-height: 21px;
+  font-weight: normal;
   margin-bottom: 22px
 }
 /* Причины и преимущества */
@@ -230,7 +236,7 @@ p {
 /* Поиск гостиницы */
 .hotel-search {
   height: 764px;
-  padding-top: 32px;
+  padding-top: 28px;
   text-align: center;
   background-color: #fff;
 }
@@ -238,6 +244,9 @@ p {
 .hotel-search p {
   width: 450px;
   margin: 0 auto;
+  font-size: 14px;
+  line-height: 24px;
+  font-weight: normal;
 } 
 
 .search-headline {
@@ -245,12 +254,9 @@ p {
   font-size: 30px;
   line-height: 24px;
   color: #000;
+  font-weight: bold;
 }
 
-.search-header p {
-  line-height: 24px;
-  font-weight: normal;
-}
 
 .hotel-search-button {
   width: 570px;
@@ -260,13 +266,12 @@ p {
   font-size: 21px;
   line-height: 26px;
   font-weight: 600;
-  text-transform: uppercase;
   color: #ffffff;
   background-color: #766357;
   border: none;
   outline: none;
   cursor: pointer;
-  
+  text-transform: uppercase; 
 }
 
 /* Выпадающая форма */
@@ -591,7 +596,6 @@ p {
   float: right;
   width: 325px;
   color: #ffffff;
-  text-transform: uppercase;
 }
 
 .filter-range-title {
@@ -870,7 +874,6 @@ p {
   font-size: 14px;
   line-height: 21px;
   font-weight: normal;
-  text-transform: uppercase;
   color: #333333;
 }
 
@@ -943,7 +946,6 @@ p {
   font-size: 14px;
   line-height: 21px;
   font-weight: normal;
-  text-transform: uppercase;
   padding: 5px 16px;
   background-color: #f2f2f2;
 
@@ -972,7 +974,6 @@ p {
   font-size: 21px;
   line-height: 26px;
   font-weight: 700;
-  text-transform: uppercase;
   padding-left: 131px;
   margin: 0 auto;
   padding-top: 50px;
