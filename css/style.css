@@ -75,6 +75,8 @@ p {
   position: absolute;
   top: 0;
   z-index: 2;
+  -webkit-transform: translateX(531px);
+  -ms-transform: translateX(531px);
   transform: translateX(531px);
 }
  
@@ -276,9 +278,11 @@ p {
   width: 568px;
   margin: 0 auto;
   padding: 57px 55px 52px 55px;
-  transform: translateX(-50%);
   background-color: #ffffff;
-  box-shadow: 0 5px 15px 5px rgba(0,1,1,0.15); 
+  box-shadow: 0 5px 15px 5px rgba(0,1,1,0.15);
+  -webkit-transform: translateX(-50%);
+  -ms-transform: translateX(-50%);
+  transform: translateX(-50%); 
 }
 
 
@@ -612,6 +616,8 @@ p {
   width: 2px;
   height: 22px;
   background: #ffffff;
+  -webkit-transform: translate(-50%, -50%);
+  -ms-transform: translate(-50%, -50%);
   transform: translate(-50%, -50%);
 }
 
@@ -705,8 +711,14 @@ p {
 /* Сортировка */
 .wrap-results {
   padding: 25px 72px 24px;
+  display: -webkit-flex;
+  display: -ms-flexbox;
   display: flex;
+  -webkit-flex-direction: row;
+  -ms-flex-direction: row;
   flex-direction: row; 
+  -webkit-align-items: center; 
+  -ms-flex-align: center; 
   align-items: center;
   margin: 0;
   width: 100%; 
@@ -765,6 +777,8 @@ p {
 .results-arrows {
   position: relative;
   top: 0px;
+  -webkit-transform: translateX(460px);
+  -ms-transform: translateX(460px);
   transform: translateX(460px);
 }
 
