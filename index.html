@@ -99,10 +99,12 @@
           <h2 class="search-headline">Заинтересовались?</h2>
           <p>Укажите предполагаемые даты поездки<br>
             и мы покажем вам лучшие предложения гостиниц в седоне</p>
-          <button class="hotel-search-button js-open-btn" type="submit">Поиск гостиницы в Седоне</button>
+          <form action="writeus.html">
+            <button class="hotel-search-button js-open-btn" type="submit">Поиск гостиницы в Седоне</button>
+          </form>
 
         <div class="hotel-search-block">
-          <form class="hotel-search-form" action="/" method="post">
+          <form class="hotel-search-form" action="/" method="post" name="hotel-search-form">
 
             <div class="input-wrapper clearfix">
               <label class="date-in" for="date-in">Дата заезда:</label>
@@ -128,7 +130,7 @@
                 <label for="children-counter">Дети:</label>
                 <button class="btn-counter btn-minus" type="button"></button>
                 <input class="children-counter" type="text" id="children-counter">
-                <button class="btn-counter btn-plus" type="button"></button>
+                <button class="btn-counter btn-plus" type="submit"></button>
               </div>
             </div>
 
