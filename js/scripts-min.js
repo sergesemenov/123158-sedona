@@ -1,5 +1,1 @@
-var searchOpen=document.querySelector(".js-open-btn"),searchBlock=document.querySelector(".hotel-search-block");searchOpen.addEventListener("click",function(e){e.preventDefault(),searchBlock.classList.toggle("hotel-search-block-show")});
-
-
-
-
+var searchOpen=document.querySelector(".js-open-btn"),searchBlock=document.querySelector(".hotel-search-block"),dateIn=document.querySelector("[name=date-in]"),dateOut=document.querySelector("[name=date-out]"),form=searchBlock.querySelector("form"),storage=localStorage.getItem("dateIn");searchOpen.addEventListener("click",function(e){e.preventDefault(),searchBlock.classList.toggle("hotel-search-block-show"),searchBlock.classList.remove("hotel-search-block-error"),storage?(dateIn.value=storage,dateOut.focus()):dateIn.focus()}),form.addEventListener("submit",function(e){e.preventDefault(),dateIn.value&&dateOut.value?localStorage.setItem("dateIn",dateIn.value):(e.preventDefault(),searchBlock.classList.remove("hotel-search-block-error"),searchBlock.offsetWidth=searchBlock.offsetWidth,searchBlock.classList.add("hotel-search-block-error"),console.log("Нужно ввести данные"))}),window.addEventListener("keydown",function(e){27===e.keyCode&&searchBlock.classList.contains("hotel-search-block-show")&&(searchBlock.classList.toggle("hotel-search-block-show"),searchBlock.classList.add("hotel-search-block-error"))});

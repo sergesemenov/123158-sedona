@@ -275,24 +275,99 @@ body {
 }
 
 /* Выпадающая форма */
+
+@-webkit-keyframes bounce {
+  0%   {
+    -webkit-transform: translateY(0px);
+    transform: translateY(0px);
+  }
+  70%  {
+    -webkit-transform: translateY(50px);
+    transform: translateY(50px);
+  }
+  90%  {
+    -webkit-transform: translateY(10px);
+    transform: translateY(10px);
+  }
+  100% {
+    -webkit-transform: translateY(0);
+    transform: translateY(0);
+  }
+}
+
+@keyframes bounce {
+  0%   {
+    -webkit-transform: translateY(0px);
+    transform: translateY(0px);
+  }
+  70%  {
+    -webkit-transform: translateY(50px);
+    transform: translateY(50px);
+  }
+  90%  {
+    -webkit-transform: translateY(10px);
+    transform: translateY(10px);
+  }
+  100% {
+    -webkit-transform: translateY(0);
+    transform: translateY(0);
+  }
+}
+
+@-webkit-keyframes shake {
+  0%, 100% {
+    -webkit-transform: translateX(0);
+    transform: translateX(0);
+  }
+  10%, 30%, 50%, 70%, 90% {
+    -webkit-transform: translateX(-10px);
+    transform: translateX(-10px);
+  }
+  20%, 40%, 60%, 80% {
+    -webkit-transform: translateX(10px);
+    transform: translateX(10px);
+  }
+}
+
+@keyframes shake {
+  0%, 100% {
+    -webkit-transform: translateX(0);
+    transform: translateX(0);
+  }
+  10%, 30%, 50%, 70%, 90% {
+    -webkit-transform: translateX(-10px);
+    transform: translateX(-10px);
+  }
+  20%, 40%, 60%, 80% {
+    -webkit-transform: translateX(10px);
+    transform: translateX(10px);
+  }
+}
+
 .hotel-search-block {
   display: none;
   position: absolute;
-  left: 50%;
+  left: 390px;
   z-index: 5;
-  width: 568px;
+  width: 570px;
   margin: 0 auto;
   padding: 57px 55px 52px 55px;
   background-color: #ffffff;
   box-shadow: 0 5px 15px 5px rgba(0,1,1,0.15);
-  -webkit-transform: translateX(-50%);
-  -ms-transform: translateX(-50%);
-  transform: translateX(-50%); 
+}
+
+.hotel-search-block-error {
+  -webkit-animation: shake .2s;
+  animation: shake .2s;
 }
 
 
 .hotel-search-block-show {
   display: block;
+  -webkit-animation-name: bounce;
+  animation-name: bounce;
+  -webkit-animation-duration: .2s;
+  animation-duration: .2s;
 }
 
 .input-wrapper {
