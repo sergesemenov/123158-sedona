@@ -259,19 +259,21 @@ body {
 
 
 .hotel-search-button {
+  display: block;
   width: 570px;
+  margin: 0 auto;
   margin-top: 49px;
   padding: 29px 100px;
   font-family: "PT Sans", "Tahoma", sans-serif;
   font-size: 21px;
   line-height: 26px;
   font-weight: 600;
+  text-decoration: none;
   color: #ffffff;
   background-color: #766357;
   border: none;
   outline: none;
-  cursor: pointer;
-  text-transform: uppercase; 
+  cursor: pointer; 
 }
 
 /* Выпадающая форма */
