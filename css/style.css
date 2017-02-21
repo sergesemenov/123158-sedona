@@ -349,7 +349,8 @@ body {
 .hotel-search-block {
   display: none;
   position: absolute;
-  left: 390px;
+  left: -50%;
+  right: -50%;
   z-index: 5;
   width: 570px;
   margin: 0 auto;
